@@ -27,7 +27,6 @@ class Clock extends React.Component {
   }
 
   render() {
-    // console.log("YOOOO LOOOK AT ME IM SHOWING KEY!", this.props.myKey);
     return(
       <div className="clock">
         <div className="timezone">
@@ -41,7 +40,6 @@ class Clock extends React.Component {
     )
   }
 }
-// moment().tz(""America/Los_Angeles"").format("h:mm:ss A");
-// <h4>{moment().tz(`${this.props.timezone}`).format("h:mm:ss A")}</h4>
+
 
 export default Clock;
