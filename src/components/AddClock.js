@@ -35,10 +35,8 @@ class AddClock extends React.Component {
     return array;
   }
   handleDel(myIndex) {
-    // const newTzs = this.state.myTzs.filter(timezone => index !== myKey);
     const newTzs = this.removeAt(this.state.myTzs, myIndex);
     this.setState({ myTzs: newTzs });
-    // this.state.tz changes to remove the tz passed in as an arg.
   }
   render() {
     let clockList = moment.tz.names().map((timezone, index) =>{
