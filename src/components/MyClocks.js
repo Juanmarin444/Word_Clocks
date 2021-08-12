@@ -1,5 +1,4 @@
 import React from 'react';
-// import moment from 'moment-timezone';
 import Clock from './Clock';
 
 class MyClocks extends React.Component {
@@ -27,5 +26,5 @@ class MyClocks extends React.Component {
     )
   }
 }
-// <Clock timezones={this.props.timezone} remove={this.handleRemove} />
+
 export default MyClocks;
